@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Introduction-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Future of Work Survey</title>
+</head>
+<body>
+<form action="/submit-survey" method="post" id="survey-form">
+    <h1 id="title">The Future of Work: Remote vs. In-Office Preferences Survey</h1>
+    <p id="description">The ‘Future of Work’ survey explores workforce preferences for remote and in-office work in the post-pandemic era. It aims to understand the benefits and challenges of both work styles, including the emerging hybrid model. The results will guide organizations in creating flexible and inclusive policies that enhance productivity. This survey contributes to shaping a resilient future work landscape.</p>
+<!--Demographics-->
+    <fieldset>
+        <legend>Demographics</legend>    
+        <div>
+            <label for="name" id="name-label">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter your name here" required><br>
+            <label for="number" id="number-label">Age: </label>
+            <input type="number" id="number" name="age" min="1" max="100" placeholder="Enter your age here" required><br>
+            <label for="dropdown">Sex: </label>
+            <select id="dropdown" name="sex" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+            <label for="email" id="email-label">Email address: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email here" required><br>
+            <label for="industry">Industry:</label>
+            <input type="text" id="industry" name="industry" placeholder="Enter your industry here" required><br>
+            <label for="job_role">Job role:</label>
+            <input type="text" id="job_role" name="job_role" placeholder="Enter your job role here" required><br>
+            <label for="experience">Years of experience:</label>
+            <input type="number" id="experience" name="experience" placeholder="Enter your years of experience here" min="1">
+        </div>
+    </fieldset>
+<!--Survey Questions-->
+    <fieldset>
+        <legend>Questions</legend>
+<!--Question 1-->
+        <div>
+            <label for="fully-remote" id="question-1">Question 1: What is your current work arrangement?</label><br>
+            <input type="radio" id="fully-remote" name="work-arrangement" value="Fully remote" onclick="document.getElementById('specify').disabled = true;">
+            <label for="fully-remote">Fully remote</label><br>
+            <input type="radio" id="fully-in-office" name="work-arrangement" value="Fully in-office" onclick="document.getElementById('specify').disabled = true;">
+            <label for="fully-in-office">Fully in-office</label><br>
+            <input type="radio" id="hybrid" name="work-arrangement" value="Hybrid" onclick="document.getElementById('specify').disabled = true;">
+            <label for="hybrid">Hybrid (combination of remote and in-office)</label><br>
+            <input type="radio" id="others" name="work-arrangement" value="Others" onclick="document.getElementById('specify').disabled = false;">
+            <label for="others">Others (please specify):</label>
+            <input type="text" id="specify" disabled><br><br>
+        </div>
+<!--Question 2-->
+        <div>
+            <label for="satisfaction" id="question-2">Question 2: How satisfied are you with your current work arrangement?</label><br>
+            <select id="satisfaction" name="satisfaction" onchange="document.getElementById('specify').disabled = (this.value !== 'others');">
+                <option value="" disabled selected>Select one</option>
+                <option value="very-satisfied">Very satisfied</option>
+                <option value="satisfied">Satisfied</option>
+                <option value="neutral">Neutral</option>
+                <option value="dissatisfied">Dissatisfied</option>
+                <option value="very-dissatisfied">Very dissatisfied</option>
+            </select><br><br>
+        </div>
+<!--Question 3-->
+        <div>
+            <label id="question-3">Question 3: What factors influence your preference for remote or in-office work? (Select all that apply.)</label><br>
+            <input type="checkbox" id="flexibility" name="work-preference" value="Flexibility in work hours">
+            <label for="flexibility">Flexibility in work hours</label><br>
+            <input type="checkbox" id="work-life-balance" name="work-preference" value="Work-life balance">
+            <label for="work-life-balance">Work-life balance</label><br>
+            <input type="checkbox" id="commute-time" name="work-preference" value="Commute time">
+            <label for="commute-time">Commute time</label><br>
+            <input type="checkbox" id="productivity" name="work-preference" value="Productivity">
+            <label for="productivity">Productivity</label><br>
+            <input type="checkbox" id="collaboration" name="work-preference" value="Collaboration with colleagues">
+            <label for="collaboration">Collaboration with colleagues</label><br>
+            <input type="checkbox" id="resources" name="work-preference" value="Access to resources and equipment">
+            <label for="resources">Access to resources and equipment</label><br>
+            <input type="checkbox" id="culture" name="work-preference" value="Company culture">
+            <label for="culture">Company culture</label><br>
+            <input type="checkbox" id="others-2" name="work-preference" value="Others">
+            <label for="others-2">Others (please specify): </label>
+            <input type="text" id="specify-2"><br>
+        </div>
+    </fieldset>
+<footer>
+    <fieldset id="feedback">
+        <legend>Feedback</legend>
+        <p>Do you have any comments/suggestions?</p>
+        <textarea class="textarea" name="comments" placeholder="Enter your comments/suggestions here"></textarea>
+    </fieldset>
+    <h3>Your personal information will remain private and confidential.</h3>
+    <h3>Thank you for participating in this survey.</h3>
+    <input type="submit" id="submit" value="Submit">
+</footer>
+</form>
+</body>
+</html>
