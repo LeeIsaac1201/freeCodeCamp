@@ -50,7 +50,7 @@ This section contains all the required projects to complete the **Responsive Web
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup and usage details.
+Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
 
 ## Technologies Used
 
