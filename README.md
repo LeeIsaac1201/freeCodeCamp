@@ -43,10 +43,4 @@ This repository contains the required projects to earn the certification. Each p
 - **Features:**  
   - Sections for projects, contact information, and an about me page.  
   - Customizable and visually unique design.  
-  - Links to professional profiles or additional resources.  
-
----
-
-## Getting Started
-
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for setup and usage details.
+  - Links to professional profiles or additional resources.
