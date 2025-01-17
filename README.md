@@ -15,7 +15,7 @@ This repository contains the required projects to earn certifications from freeC
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup and usage details.
+Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
 
 ## Technologies Used
 
