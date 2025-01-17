@@ -15,23 +15,23 @@ This section contains all the required projects to complete the **Responsive Web
   - User-friendly layout and intuitive navigation.  
 
 ### 2. Tribute Page  
-- **Description:** A webpage dedicated to honoring a subject of your choice, real or fictional.  
+- **Description:** A webpage to honour a subject of your choice, real or fictional.  
 - **Objective:** Develop skills in structuring and styling webpages with meaningful content.  
 - **Features:**  
   - Biographical or thematic content about the subject.  
   - Visual elements, such as images and quotes.  
-  - Semantic HTML for a well-organized structure.  
+  - Semantic HTML for a well-organised structure.  
 
 ### 3. Technical Documentation Page  
-- **Description:** A reference page designed to provide instructions or information on a specific topic.  
-- **Objective:** Gain experience in creating structured and accessible technical content.  
+- **Description:** A reference page to provide instructions or information on a specific topic.  
+- **Objective:** Gain experience creating structured and accessible technical content.  
 - **Features:**  
   - Clear navigation with a sidebar.  
   - Detailed sections and sub-sections.  
   - Code snippets or technical explanations.  
 
 ### 4. Product Landing Page  
-- **Description:** A marketing webpage designed to showcase and promote a product of your choice.  
+- **Description:** A marketing webpage to showcase and promote a product of your choice.  
 - **Objective:** Learn how to design and implement a visually appealing marketing page.  
 - **Features:**  
   - Catchy headlines and promotional content.  
@@ -43,14 +43,14 @@ This section contains all the required projects to complete the **Responsive Web
 - **Objective:** Create a portfolio to establish an online presence.  
 - **Features:**  
   - Sections for projects, contact information, and an about me page.  
-  - Customizable and visually unique design.  
+  - Customisable and visually unique design.  
   - Links to professional profiles or additional resources.  
 
----
+------------------
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for setup and usage details.
+Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup and usage details.
 
 ## Technologies Used
 
