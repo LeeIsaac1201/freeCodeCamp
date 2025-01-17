@@ -1,10 +1,10 @@
 # freeCodeCamp Certification Projects Overview
 
-This repository contains the required projects to earn certifications from freeCodeCamp. Each project is organized under its respective certification category.
+This repository contains the required projects to earn certifications from freeCodeCamp. Each project is organised under its respective certification category.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Responsive Web Design Projects
+## Responsive Web Design Certification Projects
 
 1. Survey Form  
 2. Tribute Page  
@@ -15,7 +15,7 @@ This repository contains the required projects to earn certifications from freeC
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for setup and usage details.
+Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup and usage details.
 
 ## Technologies Used
 
