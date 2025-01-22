@@ -1,4 +1,4 @@
-/* Root Variables*/
+/* Root Variables */
 :root {
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
@@ -6,7 +6,7 @@
   --color-green: #37af65;
 }
 
-/* Global Styles*/
+/* Global Styles */
 *::before, *::after {
   box-sizing: border-box;
 }
@@ -25,7 +25,7 @@ body {
   background-position: center;
 }
 
-/* Heading Styles*/
+/* Heading Styles */
 h1 {
   font-weight: 400;
   line-height: 1.2;
@@ -33,14 +33,14 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-/* Paragraph Styles*/
+/* Paragraph Styles */
 p {
   font-size: 1.125rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-/* Label Styles*/
+/* Label Styles */
 label {
   display: inline-block;
   text-align: left;
@@ -49,7 +49,7 @@ label {
   margin-right: auto;
 }
 
-/* Input Styles*/
+/* Input Styles */
 input, button, select, textarea {
   margin-left: 0;
   font-family: inherit;
@@ -60,21 +60,17 @@ input, button, select, textarea {
 }
 
 /* Styles for radio buttons and checkboxes */
-/* This sets their width to auto, allowing them to take only as much space as they need */
 input[type="radio"], input[type="checkbox"] {
   width: auto;
 }
 
 /* Button styles */
-/* This removes any border and left margin from buttons */
 button {
   border: none;
   margin-left: 0;
 }
 
-/* Container styles*/
-/* This sets the container's width to 100% and centers it on the page */
-/* The media queries adjust the maximum width of the container at different screen sizes */
+/* Container styles */
 .container {
   width: 100%;
   margin: 3.125rem auto 0 auto;
@@ -92,33 +88,31 @@ button {
   }
 }
 
-/* Header Styles*/
-/* This adds some padding and bottom margin to the header */
+/* Header Styles */
 .header {
   padding: 0 0.625rem;
   margin-bottom: 1.875rem;
 }
 
-/* Description Styles*/
-/* This makes the description text italic and lighter */
+/* Description Styles */
 .description {
   font-style: italic;
   font-weight: 200;
 }
 
-/* Clue Styles*/
+/* Clue Styles */
 .clue {
   margin-left: 0.25rem;
   font-size: 0.9rem;
   color: #e4e4e4;
 }
 
-/* Text Center Styles*/
+/* Text Center Styles */
 .text-center {
   text-align: center;
 }
 
-/* Form Styles*/
+/* Form Styles */
 form {
   width: 61%;
   margin: 0 auto;
