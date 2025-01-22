@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Introduction-->
+<!-- Introduction -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,8 @@
 <form action="/submit-survey" method="post" id="survey-form">
     <h1 id="title">The Future of Work: Remote vs. In-Office Preferences Survey</h1>
     <p id="description">The ‘Future of Work’ survey explores workforce preferences for remote and in-office work in the post-pandemic era. It aims to understand the benefits and challenges of both work styles, including the emerging hybrid model. The results will guide organizations in creating flexible and inclusive policies that enhance productivity. This survey contributes to shaping a resilient future work landscape.</p>
-<!--Demographics-->
+    
+    <!-- Demographics -->
     <fieldset>
         <legend>Demographics</legend>    
         <div>
@@ -35,10 +36,12 @@
             <input type="number" id="experience" name="experience" placeholder="Enter your years of experience here" min="1">
         </div>
     </fieldset>
-<!--Survey Questions-->
+    
+    <!-- Survey Questions -->
     <fieldset>
         <legend>Questions</legend>
-<!--Question 1-->
+        
+        <!-- Question 1 -->
         <div>
             <label for="fully-remote" id="question-1">Question 1: What is your current work arrangement?</label><br>
             <input type="radio" id="fully-remote" name="work-arrangement" value="Fully remote" onclick="document.getElementById('specify').disabled = true;">
@@ -51,7 +54,8 @@
             <label for="others">Others (please specify):</label>
             <input type="text" id="specify" disabled><br><br>
         </div>
-<!--Question 2-->
+        
+        <!-- Question 2 -->
         <div>
             <label for="satisfaction" id="question-2">Question 2: How satisfied are you with your current work arrangement?</label><br>
             <select id="satisfaction" name="satisfaction" onchange="document.getElementById('specify').disabled = (this.value !== 'others');">
@@ -63,7 +67,8 @@
                 <option value="very-dissatisfied">Very dissatisfied</option>
             </select><br><br>
         </div>
-<!--Question 3-->
+        
+        <!-- Question 3 -->
         <div>
             <label id="question-3">Question 3: What factors influence your preference for remote or in-office work? (Select all that apply.)</label><br>
             <input type="checkbox" id="flexibility" name="work-preference" value="Flexibility in work hours">
@@ -85,16 +90,18 @@
             <input type="text" id="specify-2"><br>
         </div>
     </fieldset>
-<footer>
-    <fieldset id="feedback">
-        <legend>Feedback</legend>
-        <p>Do you have any comments/suggestions?</p>
-        <textarea class="textarea" name="comments" placeholder="Enter your comments/suggestions here"></textarea>
-    </fieldset>
-    <h3>Your personal information will remain private and confidential.</h3>
-    <h3>Thank you for participating in this survey.</h3>
-    <input type="submit" id="submit" value="Submit">
-</footer>
+    
+    <!-- Feedback Section -->
+    <footer>
+        <fieldset id="feedback">
+            <legend>Feedback</legend>
+            <p>Do you have any comments/suggestions?</p>
+            <textarea class="textarea" name="comments" placeholder="Enter your comments/suggestions here"></textarea>
+        </fieldset>
+        <h3>Your personal information will remain private and confidential.</h3>
+        <h3>Thank you for participating in this survey.</h3>
+        <input type="submit" id="submit" value="Submit">
+    </footer>
 </form>
 </body>
 </html>
