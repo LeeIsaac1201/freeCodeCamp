@@ -1,3 +1,4 @@
+/* Define color variables */
 :root {
   --main-white: #FFFFFF;
   --main-red: #ff0000;
@@ -22,6 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Responsive font size adjustments */
 @media (max-width: 75em) {
   html {
     font-size: 60%;
@@ -77,6 +79,7 @@ img {
   width: 100%;
 }
 
+/* Navigation bar styles */
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -115,7 +118,6 @@ img {
 }
 
 /* Welcome section */
-
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -135,7 +137,6 @@ img {
 }
 
 /* Projects section */
-
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
@@ -228,7 +229,6 @@ img {
 }
 
 /* Contact section */
-
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -275,7 +275,6 @@ img {
 }
 
 /* Footer */
-
 footer {
   font-weight: 300;
   display: flex;
