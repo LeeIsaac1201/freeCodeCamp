@@ -6,6 +6,7 @@
   --main-gray: #000000;
 }
 
+/* Global resets and box-sizing rules */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Responsive font size adjustments */
+/* Responsive font size adjustments for various screen sizes */
 @media (max-width: 75em) {
   html {
     font-size: 60%;
@@ -42,6 +43,7 @@ html {
   }
 }
 
+/* Base styles for body and typography */
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
@@ -50,6 +52,7 @@ body {
   color: var(--main-white);
 }
 
+/* Header styles */
 h1,
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -65,6 +68,7 @@ h2 {
   font-size: 4.2rem;
 }
 
+/* General styles for lists, links, and images */
 ul {
   list-style: none;
 }
@@ -117,7 +121,7 @@ img {
   background: var(--main-blue);
 }
 
-/* Welcome section */
+/* Welcome section styles */
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -136,7 +140,7 @@ img {
   color: var(--main-red);
 }
 
-/* Projects section */
+/* Projects section styles */
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
@@ -155,7 +159,7 @@ img {
   }
 }
 
-/* "Automagic" image grid using no media queries */
+/* Projects grid using CSS grid layout */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -202,6 +206,7 @@ img {
   padding: 2rem 0.5rem;
 }
 
+/* Button styles for "Show All" action */
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
@@ -228,7 +233,7 @@ img {
   transition: transform 0.3s ease-out;
 }
 
-/* Contact section */
+/* Contact section styles */
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -255,6 +260,7 @@ img {
   font-style: italic;
 }
 
+/* Contact links and hover effects */
 .contact-links {
   display: flex;
   justify-content: center;
@@ -274,7 +280,7 @@ img {
   transform: translateY(8px);
 }
 
-/* Footer */
+/* Footer styles */
 footer {
   font-weight: 300;
   display: flex;
