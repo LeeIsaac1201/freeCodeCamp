@@ -12,12 +12,16 @@ This repository contains the required projects to earn certifications from freeC
 4. Product Landing Page  
 5. Personal Portfolio Webpage  
 
+## JavaScript Algorithms and Data Structures Certification Projects
+
+1. Palindrome Checker
 
 ## Getting Started
 
 Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
 
-## Technologies Used
+## Programming Languages Used
 
 - **HTML5**  
-- **CSS3**
+- **CSS3**  
+- **JavaScript (ECMAScript 2023 (ES14))**
