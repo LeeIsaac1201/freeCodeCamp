@@ -1,0 +1,60 @@
+/* Body Section */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Section */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Definition Section */
+p {
+    text-align: center;
+    color: #333;
+}
+
+/* Input Section */
+#text-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+#text-input::placeholder {
+    text-align: center;
+}
+
+/* Button Section */
+#check-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+#check-btn:hover {
+    background-color: #218838;
+}
+
+/* Result Section */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
