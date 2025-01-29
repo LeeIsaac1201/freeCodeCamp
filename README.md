@@ -15,10 +15,11 @@ This repository contains the required projects to earn certifications from freeC
 ## JavaScript Algorithms and Data Structures Certification Projects
 
 1. Palindrome Checker
+2. Roman Numeral Converter
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
+Each project is located in its respective directory within this repository. For reference, setup, and usage details, follow the instructions in each directory's README.md file.
 
 ## Programming Languages Used
 
