@@ -1,0 +1,63 @@
+/* Basic styling for the application */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .container {
+    background: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Form elements styling */
+  label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #check-btn {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  #clear-btn {
+    background: #dc3545;
+    color: #fff;
+  }
+  
+  /* Results section styling */
+  #results-div {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    min-height: 2rem;
+    background: #e9ecef;
+    word-wrap: break-word;
+  }
