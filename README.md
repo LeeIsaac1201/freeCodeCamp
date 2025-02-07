@@ -16,6 +16,9 @@ This repository contains the required projects to earn certifications from freeC
 
 1. Palindrome Checker
 2. Roman Numeral Converter
+3. Telephone Number Validator
+4. Cash Register
+5. Pokémon Search App
 
 ## Getting Started
 
