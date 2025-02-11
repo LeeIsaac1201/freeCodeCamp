@@ -20,9 +20,18 @@ This repository contains the required projects to earn certifications from freeC
 4. Cash Register
 5. Pokémon Search App
 
+## Front End Development Libraries Projects
+
+1. Random Quote Machine
+2. Markdown Previewer
+3. Drum Machine
+4. JavaScript Calculator
+5. 25 + 5 Clock
+
+
 ## Getting Started
 
-Each project is located in its respective directory within this repository. For reference, setup, and usage details, follow the instructions in each directory's README.md file.
+Each project is located in its respective directory within this repository. Please follow the instructions in each directory's README.md file for reference, setup, and usage details.
 
 ## Programming Languages Used
 
