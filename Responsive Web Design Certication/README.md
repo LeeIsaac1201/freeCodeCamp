@@ -2,6 +2,8 @@
 
 This section contains all the required projects to complete the **Responsive Web Design Certification** from freeCodeCamp.
 
+[View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/responsive-web-design)
+
 --------------------------------------------------------------------------------------------------------------------------
 
 ## Projects
@@ -50,9 +52,9 @@ This section contains all the required projects to complete the **Responsive Web
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
+Each project is located in its respective directory within this repository. For reference, setup, and usage details, follow the instructions in each directory's README.md file.
 
 ## Technologies Used
 
 - **HTML5**  
-- **CSS3**
+- **CSS3**  
