@@ -13,6 +13,15 @@ This section contains all the required projects to complete the **JavaScript Alg
   - Validates whether a given string is a palindrome.
   - Ignores punctuation, case, and spacing.
 
+### 2. Roman Numeral Converter
+- **Description:** A web app that converts Arabic numerals into Roman numerals.
+- **Objective:** Practice algorithm development and Document Object Model (DOM) manipulation.
+- **Features:**
+  - Input element for number entry (id: "number").
+  - Button element to trigger the conversion (id: "convert-btn").
+  - Output element to display the result (id: "output").
+  - Validation for invalid inputs and boundary conditions.
+
 ------------------
 
 ## Getting Started
@@ -21,4 +30,6 @@ Each project is located in its respective directory within this repository. Foll
 
 ## Technologies Used
 
+- **HTML5**  
+- **CSS3**  
 - **JavaScript**
