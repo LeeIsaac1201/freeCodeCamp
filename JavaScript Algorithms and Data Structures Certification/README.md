@@ -8,7 +8,7 @@ This section contains all the required projects to complete the **JavaScript Alg
 
 ### 1. Palindrome Checker
 - **Description:** A function that checks if a given string is a palindrome.
-- **Objective:** Practise JavaScript algorithms and string manipulation.
+- **Objective:** Practice JavaScript algorithms and string manipulation.
 - **Features:**
   - Validates whether a given string is a palindrome.
   - Ignores punctuation, case, and spacing.
@@ -17,9 +17,9 @@ This section contains all the required projects to complete the **JavaScript Alg
 - **Description:** A web app that converts Arabic numerals into Roman numerals.
 - **Objective:** Practice algorithm development and Document Object Model (DOM) manipulation.
 - **Features:**
-  - Input element for number entry (id: "number").
-  - Button element to trigger the conversion (id: "convert-btn").
-  - Output element to display the result (id: "output").
+  - Input element for number entry.
+  - Button element to trigger the conversion.
+  - Output element to display the result.
   - Validation for invalid inputs and boundary conditions.
 
 ------------------
@@ -28,8 +28,8 @@ This section contains all the required projects to complete the **JavaScript Alg
 
 Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
 
-## Technologies Used
+## Programming Languages Used
 
-- **HTML5**  
-- **CSS3**  
+- **Hyper Text Markup Language (HTML)**  
+- **Cascading Style Sheets (CSS)**  
 - **JavaScript**
