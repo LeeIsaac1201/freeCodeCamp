@@ -35,6 +35,6 @@ Each project is located in its respective directory within this repository. Plea
 
 ## Programming Languages Used
 
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (ECMAScript 2023 (ES14))**
+- **Hyper Text Markup Language (HTML)**  
+- **Cascading Style Sheets (CSS)**  
+- **JavaScript**
