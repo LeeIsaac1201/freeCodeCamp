@@ -1,3 +1,6 @@
+/* Tells the linter that `document` and `alert` are global variables */
+'use strict';
+
 // Event Listener Section
 document.getElementById('check-btn').addEventListener('click', function () {
     // Input and Result Elements Section
@@ -30,4 +33,4 @@ document.getElementById('check-btn').addEventListener('click', function () {
     } else {
         resultElement.textContent = `${inputText} is not a palindrome.`;
     }
-}); 
+});
