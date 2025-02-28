@@ -1,10 +1,13 @@
-// Get Document Object Model elements
+/* Tells the linter that `document` and `alert` are global variables */
+'use strict';
+
+// Get Document Object Model (DOM) elements
 const numberInput = document.getElementById("number");
 const convertButton = document.getElementById("convert-btn");
 const output = document.getElementById("output");
 
 // Function to convert number to Roman numeral
-function convertToRoman(number) {
+function convertToRoman(num) {
   const romanNumerals = [
     ["M", 1000],
     ["CM", 900],
@@ -22,14 +25,15 @@ function convertToRoman(number) {
   ];
 
   let roman = "";
+  let number = num; // Avoid reassigning the function parameter
 
-  // Convert number to Roman numeral
-  for (const [letter, value] of romanNumerals) {
+  // Convert number to Roman numeral using array iteration
+  romanNumerals.forEach(([letter, value]) => {
     while (number >= value) {
       roman += letter;
       number -= value;
     }
-  }
+  });
 
   return roman;
 }
@@ -39,7 +43,7 @@ convertButton.addEventListener("click", () => {
   const value = parseInt(numberInput.value, 10);
 
   // Validate input
-  if (isNaN(value)) {
+  if (Number.isNaN(value)) {
     output.textContent = "Please enter a valid number.";
     return;
   }
