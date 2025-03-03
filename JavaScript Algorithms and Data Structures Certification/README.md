@@ -1,6 +1,6 @@
 # JavaScript Algorithms and Data Structures Certification Projects
 
-This section contains all the required projects to complete the **JavaScript Algorithms and Data Structures Certification** from freeCodeCamp.
+This repository contains all the required projects to complete the JavaScript Algorithms and Data Structures Certification from freeCodeCamp.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -8,25 +8,40 @@ This section contains all the required projects to complete the **JavaScript Alg
 
 ### 1. Palindrome Checker
 - **Description:** A function that checks if a given string is a palindrome.
-- **Objective:** Practice JavaScript algorithms and string manipulation.
+- **Objective:** To practise JavaScript algorithm development and string manipulation.
 - **Features:**
   - Validates whether a given string is a palindrome.
-  - Ignores punctuation, case, and spacing.
+  - Ignores punctuation, differences in case, and spacing.
 
 ### 2. Roman Numeral Converter
-- **Description:** A web app that converts Arabic numerals into Roman numerals.
-- **Objective:** Practice algorithm development and Document Object Model (DOM) manipulation.
+- **Description:** A web application that converts Arabic numerals into Roman numerals.
+- **Objective:** To practise algorithm development and manipulation of the Document Object Model.
 - **Features:**
-  - Input element for number entry.
-  - Button element to trigger the conversion.
-  - Output element to display the result.
-  - Validation for invalid inputs and boundary conditions.
+  - Provides an input element for number entry.
+  - Utilises a button element to trigger the conversion.
+  - Displays the result in an output element.
+  - Validates invalid inputs and handles boundary conditions.
 
-------------------
+### 3. Cash Register Project
+- **Description:** A web application calculates the correct change to be returned to a customer.
+- **Objective:** To develop an application that computes change based on the price of an item, the cash provided by the customer, and the funds available in the cash drawer.
+- **Features:**
+  - Validates if the cash provided is less than the price and alerts when funds are insufficient.
+  - Displays a message when the cash provided exactly equals the price.
+  - Calculates the change due and displays the result.
+  - Determines and displays one of three statuses:
+    - **Status: OPEN** – when the cash drawer contains more funds than the change due and the exact change can be returned.
+    - **Status: CLOSED** – when the cash drawer matches the change due.
+    - **Status: INSUFFICIENT_FUNDS** – when the available funds are inadequate or the exact change cannot be provided.
+  - Presents the change breakdown in coins and bills, sorted from the highest to the lowest denomination.
+
+--------------------------------------------------------------------------------------------------------------------------
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each directory's `README.md` file for reference, setup, and usage details.
+Each project is located in its respective directory within this repository. Follow the instructions in each project’s `README.md` file for reference, setup, and usage details.
+
+--------------------------------------------------------------------------------------------------------------------------
 
 ## Programming Languages Used
 
