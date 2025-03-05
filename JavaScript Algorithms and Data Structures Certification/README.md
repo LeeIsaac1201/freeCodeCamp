@@ -22,7 +22,19 @@ This repository contains all the required projects to complete the JavaScript Al
   - Displays the result in an output element.
   - Validates invalid inputs and handles boundary conditions.
 
-### 3. Cash Register
+### 3. Telephone Number Validator
+- **Description:** A web application that validates United States telephone numbers.
+- **Features:**
+  - Accepts multiple valid formats (e.g., `1 555-555-5555`, `(555)555-5555`, `5555555555`).
+  - Requires a valid area code.
+  - Checks that the country code, if present, is 1.
+  - Provides user input, validation, and result display via dedicated elements:
+    - Input element with an id of `user-input`.
+    - Check button with an id of `check-btn`.
+    - Clear button with an id of `clear-btn`.
+    - Results display element with an id of `results-div`.
+
+### 4. Cash Register
 - **Description:** A web application calculates the correct change to be returned to a customer.
 - **Objective:** To develop an application that computes change based on the price of an item, the cash provided by the customer, and the funds available in the cash drawer.
 - **Features:**
