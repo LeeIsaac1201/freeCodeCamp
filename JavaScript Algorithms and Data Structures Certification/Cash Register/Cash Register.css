@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input Section Styles */
+.input-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.user-input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.check-btn-styles {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check-btn-styles:hover {
+    background-color: #218838;
+}
+
+#change-due {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Display Screen Styles */
+.top-display-screen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price-screen {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.connector {
+    width: 10px;
+    height: 100px;
+    background-color: #333;
+}
+
+/* Register Styles */
+.top-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cash-drawer-display {
+    width: 300px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Bottom Register Styles */
+.bottom-register {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+/* Price Display Styles */
+#price-display {
+    border: 4px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+/* Register Container Styles */
+#register-container {
+    border: 4px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Change Amount Container Styles */
+#change-amount-container {
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1em;
+    color: #333;
+    text-align: left;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#change-amount-container h2 {
+    text-align: center;
+    text-decoration: underline;
+}
