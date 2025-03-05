@@ -1,3 +1,6 @@
+/* global document, alert */
+'use strict';
+
 // Grab elements from the Document Object Model
 const userInput = document.getElementById('user-input');
 const checkButton = document.getElementById('check-btn');
@@ -15,6 +18,7 @@ checkButton.addEventListener('click', function() {
 
   // Alert if no phone number is provided
   if (phone === "") {
+    // eslint-disable-next-line no-alert
     alert("Please provide a phone number");
     return;
   }
