@@ -47,4 +47,11 @@ Each project is located in its respective directory within this repository. Foll
 
 - **Hyper Text Markup Language (HTML)**  
 - **Cascading Style Sheets (CSS)**  
-- **JavaScript**
+- **JavaScript (JS)**
+
+
+## Code Validators Used
+
+- **Hyper Text Markup Language (HTML)**: [https://validator.w3.org/](https://validator.w3.org/)
+- **Cascading Style Sheets (CSS)**: [https://validator.w3.org/](https://validator.w3.org/)
+- **JavaScript (JS)**: [https://validatejavascript.com/](https://validatejavascript.com/)
