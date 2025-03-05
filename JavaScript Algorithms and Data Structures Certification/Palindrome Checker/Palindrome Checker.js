@@ -1,4 +1,4 @@
-/* Tells the linter that `document` and `alert` are global variables */
+/* global document, alert */
 'use strict';
 
 // Event Listener Section
@@ -15,6 +15,7 @@ document.getElementById('check-btn').addEventListener('click', function () {
 
     // Input Validation Section
     if (!inputText) {
+        // eslint-disable-next-line no-alert
         alert("Please input a value");
         return;
     }
