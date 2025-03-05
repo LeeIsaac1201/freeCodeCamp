@@ -56,5 +56,10 @@ Each project is located in its respective directory within this repository. For 
 
 ## Technologies Used
 
-- **HTML5**  
-- **CSS3**  
+- **Hyper Text Markup Language (HTML)**  
+- **Cascading Style Sheets (CSS)**  
+
+## Code Validators Used
+
+- **Hyper Text Markup Language (HTML)**: [https://validator.w3.org/](https://validator.w3.org/)
+- **Cascading Style Sheets (CSS)**: [https://validator.w3.org/](https://validator.w3.org/)
