@@ -22,7 +22,7 @@ This repository contains all the required projects to complete the JavaScript Al
   - Displays the result in an output element.
   - Validates invalid inputs and handles boundary conditions.
 
-### 3. Cash Register Project
+### 3. Cash Register
 - **Description:** A web application calculates the correct change to be returned to a customer.
 - **Objective:** To develop an application that computes change based on the price of an item, the cash provided by the customer, and the funds available in the cash drawer.
 - **Features:**
@@ -30,9 +30,9 @@ This repository contains all the required projects to complete the JavaScript Al
   - Displays a message when the cash provided exactly equals the price.
   - Calculates the change due and displays the result.
   - Determines and displays one of three statuses:
-    - **Status: OPEN** – when the cash drawer contains more funds than the change due and the exact change can be returned.
-    - **Status: CLOSED** – when the cash drawer matches the change due.
-    - **Status: INSUFFICIENT_FUNDS** – when the available funds are inadequate or the exact change cannot be provided.
+    - **Status: OPEN** – The exact change can be returned when the cash drawer contains more funds than the change due.
+    - **Status: CLOSED** – When the cash drawer matches the change due.
+    - **Status: INSUFFICIENT_FUNDS** – When the available funds are inadequate or the exact change cannot be provided.
   - Presents the change breakdown in coins and bills, sorted from the highest to the lowest denomination.
 
 --------------------------------------------------------------------------------------------------------------------------
