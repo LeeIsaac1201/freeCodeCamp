@@ -1,4 +1,4 @@
-/* Tells the linter that `document` and `alert` are global variables */
+/* global document */
 'use strict';
 
 // Get Document Object Model (DOM) elements
