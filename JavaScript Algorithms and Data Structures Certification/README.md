@@ -2,6 +2,8 @@
 
 This repository contains all the required projects to complete the JavaScript Algorithms and Data Structures Certification from freeCodeCamp.
 
+[View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/javascript-algorithms-and-data-structures-v8)
+
 --------------------------------------------------------------------------------------------------------------------------
 
 ## Projects
