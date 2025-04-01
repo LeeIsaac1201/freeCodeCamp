@@ -1,0 +1,25 @@
+/* Centering the quote box horizontally and vertically */
+body {
+  background: #f4f4f4;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the quote container */
+#quote-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+}
+
+/* Spacing for the buttons */
+#new-quote,
+#tweet-quote {
+  margin: 1rem 0.5rem;
+}
