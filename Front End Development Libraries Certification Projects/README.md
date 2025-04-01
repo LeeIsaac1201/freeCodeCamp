@@ -113,6 +113,3 @@ Each project is located in its respective directory within this repository. Foll
 ## Notes
 
 - React 18 has known incompatibilities with the tests for these projects. Refer to the [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues) for more details.
-- Use the following script in your `index.html` file to include the freeCodeCamp test suite:
-  ```html
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
