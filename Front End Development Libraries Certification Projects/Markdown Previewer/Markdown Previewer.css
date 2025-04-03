@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Toolbar Section */
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.toolbar i {
+  display: none;
+}
+
+/* Editor and Preview Section */
+.editorWrap,
+.previewWrap {
+  max-width: 800px;
+  margin: 1rem auto;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.editorWrap textarea {
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+}
+
+.previewWrap {
+  padding: 1rem;
+  overflow-wrap: break-word;
+}
+
+#preview blockquote {
+  border-left: 3px solid #000;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: #000;
+}
+
+#preview code {
+  background: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.875rem;
+  border-radius: 3px;
+  color: #000;
+}
+
+#preview pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  border: 1px solid #000;
+  overflow: auto;
+}
+
+#preview h1,
+#preview h2 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5rem;
+}
+
+#preview table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#preview td,
+#preview th {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+#preview img {
+  display: block;
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
+/* Maximised View Styles */
+.maximized {
+  width: 96%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.maximized textarea {
+  min-height: 95vh;
+  resize: none;
+}
+
+/* Utility Classes */
+.hide {
+  display: none;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 650px) {
+  .editorWrap,
+  .previewWrap {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    font-size: 0.875rem;
+  }
+}
