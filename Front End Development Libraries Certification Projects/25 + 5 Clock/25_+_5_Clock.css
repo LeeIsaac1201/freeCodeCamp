@@ -1,0 +1,66 @@
+/* Universal Styles */
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Body Section Styles */
+.clock-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+/* Settings Section Styles */
+.settings {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setting button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+/* Timer Display Section Styles */
+.timer {
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#time-left {
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+/* Controls Section Styles */
+.controls button {
+  width: 100px;
+  height: 40px;
+  font-size: 1em;
+  margin: 5px;
+}
