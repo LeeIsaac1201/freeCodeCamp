@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Header Section -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>25 + 5 Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Body Section -->
+  <div class="clock-container">
+    <div class="settings">
+      <!-- Break Length Setting -->
+      <div class="setting">
+        <div id="break-label">Break Length</div>
+        <div class="button-container">
+          <button id="break-decrement">-</button>
+          <span id="break-length">5</span>
+          <button id="break-increment">+</button>
+        </div>
+      </div>
+      <!-- Session Length Setting -->
+      <div class="setting">
+        <div id="session-label">Session Length</div>
+        <div class="button-container">
+          <button id="session-decrement">-</button>
+          <span id="session-length">25</span>
+          <button id="session-increment">+</button>
+        </div>
+      </div>
+    </div>
+    <!-- Timer Display Section -->
+    <div class="timer">
+      <div id="timer-label">Session</div>
+      <div id="time-left">25:00</div>
+    </div>
+    <!-- Controls Section -->
+    <div class="controls">
+      <button id="start_stop">Start/Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <audio id="beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
