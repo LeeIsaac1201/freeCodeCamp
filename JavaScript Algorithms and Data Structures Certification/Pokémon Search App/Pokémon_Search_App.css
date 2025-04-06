@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  background-image: url('https://images8.alphacoders.com/124/1243956.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+/* Header Styles */
+h1 {
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Body Styles */
+#main-container {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
+
+#search-container {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#pokemon-details {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#types > span {
+  display: inline-block;
+  color: #fff;
+  margin: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Type Color Classes */
+.normal { background-color: #A8A77A; }
+.fire { background-color: #EE8130; }
+.water { background-color: #6390F0; }
+.electric { background-color: #F7D02C; }
+.grass { background-color: #7AC74C; }
+.ice { background-color: #96D9D6; }
+.fighting { background-color: #C22E28; }
+.poison { background-color: #A33EA1; }
+.ground { background-color: #E2BF65; }
+.flying { background-color: #A98FF3; }
+.psychic { background-color: #F95587; }
+.bug { background-color: #A6B91A; }
+.rock { background-color: #B6A136; }
+.ghost { background-color: #735797; }
+.dragon { background-color: #6F35FC; }
+.dark { background-color: #705746; }
+.steel { background-color: #B7B7CE; }
+.fairy { background-color: #D685AD; }
+.stellar { background-color: #37d0c2; }
+
+/* Sprite Styles */
+#sprite {
+  display: block;
+  margin: 1rem auto;
+  width: 150px;
+  height: auto;
+}
+
+/* Hide the Pokémon name element when empty */
+#pokemon-name:empty {
+  display: none;
+}
