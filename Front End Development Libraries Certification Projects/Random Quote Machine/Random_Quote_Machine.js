@@ -37,7 +37,7 @@ function updateQuote() {
     const randomQuote = getRandomQuote();
     if (!randomQuote) {
       throw new Error('No quotes available.');
-    }
+    }z
     const quoteText = randomQuote.quote;
     const quoteAuthor = randomQuote.author;
 
