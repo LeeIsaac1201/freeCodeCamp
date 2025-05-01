@@ -1,0 +1,47 @@
+/* Universally used styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#heatmap, #legend {
+  display: block;
+  margin: 0 auto;
+}
+
+#tooltip {
+  position: absolute;
+  background: #eee;
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* Header styles */
+#description {
+  margin-bottom: -50px;
+}
+
+/* Cell styles */
+.cell {
+  stroke: none;
+}
+
+/* Axis text styles */
+#x-axis text,
+#y-axis text {
+  font-size: 12px;
+}
+
+/* Legend text styles */
+#legend text {
+  font-size: 11px;
+}
