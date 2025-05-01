@@ -1,0 +1,43 @@
+/* General Page Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+  overflow-x: visible;
+  text-align: center;
+}
+
+/* Graph Container Styles */
+#graph-container {
+  position: relative;
+  overflow: visible;
+  width: fit-content;
+  margin: 40px auto 0;
+}
+
+/* Scalable Vector Graphics (SVG) Styles */
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Dot Styles */
+.dot {
+  stroke: black;
+}
+
+/* Tooltip Styles */
+#tooltip {
+  position: absolute;
+  background-color: lightgrey;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  max-width: 250px;
+  word-wrap: break-word;
+  text-align: left;
+}
