@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head Section: Contains meta-information, page title, and linked stylesheet. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choropleth Map</title>
+  <link rel="stylesheet" href="Choropleth_Map.css">
+</head>
+<!-- Body Section: Content displayed on the webpage, including the title, description, map container with Scalable Vector Graphics (SVG) for the choropleth map, and the tooltip for displaying county-specific information on hover. -->
+<body>
+  <h1 id="title">United States Educational Attainment</h1>
+  <p id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010–2014).</p>
+  <div id="map-container">
+    <svg id="choropleth" width="960" height="600"></svg>
+    <div id="tooltip"></div>
+  </div>
+  <svg id="legend" width="300" height="50"></svg>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://d3js.org/topojson.v3.min.js"></script>
+  <script src="Choropleth_Map.js"></script>
+</body>
+</html>
