@@ -1,0 +1,63 @@
+/* Universal styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+#title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#dataset-selector {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Remove underline from dataset selector links */
+#dataset-selector a {
+  text-decoration: none;
+}
+
+/* Main chart area */
+#chart {
+  display: flex;
+  justify-content: center;
+}
+
+.tile {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+/* Footer styles: legend and tooltip */
+#legend {
+  text-align: center;
+}
+
+#legend svg {
+  overflow: visible;
+}
+
+.legend-item {
+  stroke: #000;
+  stroke-width: 0.5;
+}
+
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 14px;
+}
