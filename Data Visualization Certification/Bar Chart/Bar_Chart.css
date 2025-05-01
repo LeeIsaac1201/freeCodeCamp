@@ -1,0 +1,39 @@
+/* Universal styles */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+/* Title styling */
+#title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Tooltip styling */
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Bar styling */
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: orange;
+}
