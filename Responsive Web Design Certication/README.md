@@ -52,7 +52,7 @@ This section contains all the required projects to complete the **Responsive Web
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. For reference, setup, and usage details, follow the instructions in each directory's README.md file.
+Each project is located in its respective directory within this repository.
 
 ## Technologies Used
 
