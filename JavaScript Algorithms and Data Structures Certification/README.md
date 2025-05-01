@@ -53,7 +53,7 @@ This repository contains all the required projects to complete the JavaScript Al
 
 ## Getting Started
 
-Each project is located in its respective directory within this repository. Follow the instructions in each project’s `README.md` file for reference, setup, and usage details.
+Each project is located in its respective directory within this repository.
 
 --------------------------------------------------------------------------------------------------------------------------
 
