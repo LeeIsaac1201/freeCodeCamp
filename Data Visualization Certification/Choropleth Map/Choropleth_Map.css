@@ -1,0 +1,58 @@
+/* Universally used styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#map-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  visibility: hidden;
+  font-size: 0.9em;
+  max-width: 220px;
+  z-index: 100;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.county {
+  stroke: #fff;
+  stroke-width: 0.5px;
+}
+
+/* Header styles */
+#title {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+
+#description {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+/* Legend and Footer styles */
+#legend {
+  display: block;
+  margin: 30px auto 0 auto;
+  overflow: visible;
+}
+
+/* Customising the positioning of map content and tooltip */
+#map-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
