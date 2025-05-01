@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header Section: Meta Information, Title, and Stylesheets -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Temperature Heat Map</title>
+  <link rel="stylesheet" href="Heat_Map.css">
+</head>
+<!-- Body and Footer Section: Content displayed on the page, Scalable Vector Graphics (SVG) elements for heatmap, and scripts for functionality -->
+<body>
+  <h1 id="title">Monthly Global Land-Surface Temperature</h1>
+  <p id="description">1753 - 2015: Base temperature 8.66℃</p>
+  <svg id="heatmap">
+    <g id="cells"></g>
+    <g id="x-axis"></g>
+    <g id="y-axis"></g>
+  </svg>
+  <svg id="legend"></svg>
+  <div id="tooltip"></div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="Heat_Map.js"></script>
+</body>
+</html>
