@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head Section: Contains meta-information, page title, stylesheet link, and external D3 library. -->
+<head>
+  <meta charset="UTF-8">
+  <title>Treemap Visualisation</title>
+  <link rel="stylesheet" type="text/css" href="Treemap_Diagram.css">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<!-- Body Section: Contains dataset selector, visualisation title and description, chart container for the treemap, legend, tooltip, and external JavaScript file. -->
+<body>
+  <div id="dataset-selector">
+    <a href="#" onclick="loadData('video'); return false;">Video Games Data Set</a> |
+    <a href="#" onclick="loadData('movies'); return false;">Movies Data Set</a> |
+    <a href="#" onclick="loadData('kickstarter'); return false;">Kickstarter Data Set</a>
+  </div>
+  <h1 id="title">Treemap Visualisation</h1>
+  <p id="description">Select a dataset to display treemap data visualisation.</p>
+  <div id="chart"></div>
+  <div id="legend"></div>
+  <div id="tooltip"></div>
+  <script src="Treemap_Diagram.js"></script>
+</body>
+</html>
