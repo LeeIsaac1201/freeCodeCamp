@@ -2,7 +2,7 @@
 
 This repository contains all the required projects to complete the **Relational Database Certification** from freeCodeCamp.
 
-[View my certification here.]()
+[View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/relational-database-v8)
 
 ---
 
