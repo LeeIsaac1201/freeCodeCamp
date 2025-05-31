@@ -44,6 +44,16 @@ This repository contains all the required projects to earn certifications from f
 
 ---
 
+## Relational Database Certification Projects
+
+- **1. Celestial Bodies Database**  
+- **2. World Cup Database**  
+- **3. Salon Appointment Scheduler**  
+- **4. Periodic Table Database**  
+- **5. Number Guessing Game**  
+
+---
+
 ## Getting Started
 
 Each project lives in its own directory within this repository.
@@ -56,6 +66,9 @@ Each project lives in its own directory within this repository.
   - Hyper Text Markup Language (HTML)  
   - Cascading Style Sheets (CSS)  
   - JavaScript (JS)
+  - Structured Query Language (SQL)
+  - Bash
+  - Procedural Language/PostgreSQL (PL/pgSQL)
 
 - **Libraries:**
   - Bootstrap  
@@ -64,7 +77,8 @@ Each project lives in its own directory within this repository.
   - Syntactically awesome style sheets (Sass)  
   - Marked (Marked.js)  
   - Prism (Prism.js)  
-  - Data-Driven Documents (D3.js)  
+  - Data-Driven Documents (D3.js)
+  - PostgreSQL  
 
 - **Tools:**
   - Scalable Vector Graphics (SVG)  
