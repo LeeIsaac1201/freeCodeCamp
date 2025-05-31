@@ -188,6 +188,7 @@ Each project is located in its respective directory within this repository.
 
 - Bourne Again SHell (Bash)
 - Procedural Language/PostgreSQL (PL/pgSQL)
+- Structured Query Language (SQL)
 
 ## Code Validator Used
 
