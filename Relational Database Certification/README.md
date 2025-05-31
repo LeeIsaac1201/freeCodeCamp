@@ -189,6 +189,6 @@ Each project is located in its respective directory within this repository.
 - Bourne Again SHell (Bash)
 - Procedural Language/PostgreSQL (PL/pgSQL)
 
-## Code Validators Used
+## Code Validator Used
 
 - **Bourne Again SHell(Bash)/Bourne shell(sh):** [https://www.shellcheck.net/](https://www.shellcheck.net/)
