@@ -175,3 +175,20 @@ This repository contains all the required projects to complete the **Relational 
   - All subsequent commits must start with one of these prefixes: `fix:`, `feat:`, `refactor:`, `chore:`, or `test:`
   - Ensure your working tree is clean (no uncommitted changes) before you finish, so the freeCodeCamp validator sees a consistent Git history.
   - If your virtual machine (VM) is ever reset or you lose in‐memory data, restore each database promptly from its `.sql` dump. This avoids retyping every CREATE TABLE and INSERT.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+## Getting Started
+
+Each project is located in its respective directory within this repository.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+## Programming Languages Used
+
+- Bourne Again SHell (Bash)
+- Procedural Language/PostgreSQL (PL/pgSQL)
+
+## Code Validators Used
+
+- **Bourne Again SHell(Bash)/Bourne shell(sh):** [https://www.shellcheck.net/](https://www.shellcheck.net/)
