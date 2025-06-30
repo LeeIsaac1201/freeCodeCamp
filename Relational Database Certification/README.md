@@ -1,6 +1,6 @@
 # Relational Database Certification Projects
 
-This repository contains all the required projects to complete the **Relational Database Certification** from freeCodeCamp.
+This repository contains all the required projects to complete the [**Relational Database Certification** from freeCodeCamp](https://www.freecodecamp.org/learn/relational-database/).
 
 [View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/relational-database-v8)
 
