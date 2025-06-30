@@ -1,6 +1,6 @@
 # Responsive Web Design Certification Projects
 
-This section contains all the required projects to complete the **Responsive Web Design Certification** from freeCodeCamp.
+This section contains all the required projects to complete the [**Responsive Web Design Certification** from freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/).
 
 [View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/responsive-web-design)
 
