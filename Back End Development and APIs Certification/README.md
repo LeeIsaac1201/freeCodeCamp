@@ -1,6 +1,6 @@
 # Back End Development and APIs Certification Projects
 
-This repository contains all the required projects to complete the **Back End Development and APIs Certification** from [freeCodeCamp](https://www.freecodecamp.org/learn/back-end-development-and-apis/).
+This repository contains all the required projects to complete the [**Back End Development and APIs Certification** from freeCodeCamp](https://www.freecodecamp.org/learn/back-end-development-and-apis/).
 
 [View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/back-end-development-and-apis)
 
