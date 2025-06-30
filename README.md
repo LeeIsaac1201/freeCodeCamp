@@ -54,6 +54,16 @@ This repository contains all the required projects to earn certifications from f
 
 ---
 
+## Back End Development and APIs Certification Projects
+
+- **1. Timestamp Microservice**
+- **2. Request Header Parser Microservice**
+- **3. URL Shortener Microservice**
+- **4. Exercise Tracker**
+- **5. File Metadata Microservice**
+
+---
+
 ## Getting Started
 
 Each project lives in its own directory within this repository.
@@ -78,11 +88,19 @@ Each project lives in its own directory within this repository.
   - Marked (Marked.js)
   - Prism (Prism.js)
   - Data-Driven Documents (D3.js)
+  - Express.js
+  - Mongoose
+  - Multer
+
+- **Databases:**
   - PostgreSQL (pgSQL)
+  - MongoDB Atlas
 
 - **Tools:**
   - Scalable Vector Graphics (SVG)
   - JavaScript Object Notation (JSON)
+  - Node.js
+  - dotenv
 
 ---
 
