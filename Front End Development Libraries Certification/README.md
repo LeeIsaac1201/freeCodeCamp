@@ -1,6 +1,6 @@
 # Front End Development Libraries Certification Projects
 
-This repository contains all the required projects to complete the **Front End Development Libraries Certification** from freeCodeCamp.
+This repository contains all the required projects to complete the [**Front End Development Libraries Certification** from freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/).
 
 [View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/front-end-development-libraries)
 
