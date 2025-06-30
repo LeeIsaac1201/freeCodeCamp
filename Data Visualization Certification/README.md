@@ -1,6 +1,6 @@
 # Data Visualization Certification Projects
 
-This repository contains all the required projects to complete the **Data Visualization Certification** from freeCodeCamp.
+This repository contains all the required projects to complete the [**Data Visualization Certification** from freeCodeCamp](https://www.freecodecamp.org/learn/data-visualization/).
 
 [View my certification here.](https://www.freecodecamp.org/certification/-SirLancelot/data-visualization)
 
