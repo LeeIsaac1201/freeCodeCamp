@@ -64,6 +64,16 @@ This repository contains all the required projects to earn certifications from f
 
 ---
 
+## Quality Assurance Certification Projects
+
+- **1. Metric‑Imperial Converter**  
+- **2. Issue Tracker**  
+- **3. Personal Library**  
+- **4. Sudoku Solver**  
+- **5. American British Translator**
+
+---
+
 ## Getting Started
 
 Each project lives in its own directory within this repository.
@@ -91,6 +101,11 @@ Each project lives in its own directory within this repository.
   - Express.js
   - Mongoose
   - Multer
+ 
+- **Testing & QA Tools:**
+  - **Mocha**
+  - **Chai**
+  - **Headless Browser Testing**
 
 - **Databases:**
   - PostgreSQL (pgSQL)
