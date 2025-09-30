@@ -6,81 +6,81 @@ This repository contains all the required projects to earn certifications from f
 
 ## Responsive Web Design Certification Projects
 
-- **1. Survey Form**
-- **2. Tribute Page**
-- **3. Technical Documentation Page**
-- **4. Product Landing Page**
-- **5. Personal Portfolio Webpage**
+1. **Survey Form**
+2. **Tribute Page**
+3. **Technical Documentation Page**
+4. **Product Landing Page**
+5. **Personal Portfolio Webpage**
 
 ---
 
 ## JavaScript Algorithms and Data Structures Certification Projects
 
-- **1. Palindrome Checker**
-- **2. Roman Numeral Converter**
-- **3. Telephone Number Validator**
-- **4. Cash Register**
-- **5. Pokémon Search App**
+1. **Palindrome Checker**
+2. **Roman Numeral Converter**
+3. **Telephone Number Validator**
+4. **Cash Register**
+5. **Pokémon Search App**
 
 ---
 
 ## Front End Development Libraries Certification Projects
 
-- **1. Random Quote Machine**
-- **2. Markdown Previewer**
-- **3. Drum Machine**
-- **4. JavaScript Calculator**
-- **5. 25 + 5 Clock**
+1. **Random Quote Machine**
+2. **Markdown Previewer**
+3. **Drum Machine**
+4. **JavaScript Calculator**
+5. **25 + 5 Clock**
 
 ---
 
 ## Data Visualization Certification Projects
 
-- **1. Bar Chart**
-- **2. Scatterplot Graph**
-- **3. Heat Map**
-- **4. Choropleth Map**
-- **5. Treemap Diagram**
+1. **Bar Chart**
+2. **Scatterplot Graph**
+3. **Heat Map**
+4. **Choropleth Map**
+5. **Treemap Diagram**
 
 ---
 
 ## Relational Database Certification Projects
 
-- **1. Celestial Bodies Database**
-- **2. World Cup Database**
-- **3. Salon Appointment Scheduler**
-- **4. Periodic Table Database**
-- **5. Number Guessing Game**
+1. **Celestial Bodies Database**
+2. **World Cup Database**
+3. **Salon Appointment Scheduler**
+4. **Periodic Table Database**
+5. **Number Guessing Game**
 
 ---
 
 ## Back End Development and APIs Certification Projects
 
-- **1. Timestamp Microservice**
-- **2. Request Header Parser Microservice**
-- **3. URL Shortener Microservice**
-- **4. Exercise Tracker**
-- **5. File Metadata Microservice**
+1. **Timestamp Microservice**
+2. **Request Header Parser Microservice**
+3. **URL Shortener Microservice**
+4. **Exercise Tracker**
+5. **File Metadata Microservice**
 
 ---
 
 ## Quality Assurance Certification Projects
 
-- **1. Metric‑Imperial Converter**  
-- **2. Issue Tracker**  
-- **3. Personal Library**  
-- **4. Sudoku Solver**  
-- **5. American British Translator**
+1. **Metric‑Imperial Converter**  
+2. **Issue Tracker**  
+3. **Personal Library**  
+4. **Sudoku Solver**  
+5. **American British Translator**
 
 ---
 
 ## Data Analysis with Python Certification Projects
 
-- **1. Mean-Variance-Standard Deviation Calculator**  
-- **2. Demographic Data Analyzer**  
-- **3. Medical Data Visualizer**  
-- **4. Page View Time Series Visualizer**  
-- **5. Sea Level Predictor**
+1. **Mean-Variance-Standard Deviation Calculator**  
+2. **Demographic Data Analyzer**  
+3. **Medical Data Visualizer**  
+4. **Page View Time Series Visualizer**  
+5. **Sea Level Predictor**
 
 ---
 
