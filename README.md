@@ -74,6 +74,16 @@ This repository contains all the required projects to earn certifications from f
 
 ---
 
+## Data Analysis with Python Certification Projects
+
+- **1. Mean-Variance-Standard Deviation Calculator**  
+- **2. Demographic Data Analyzer**  
+- **3. Medical Data Visualizer**  
+- **4. Page View Time Series Visualizer**  
+- **5. Sea Level Predictor**
+
+---
+
 ## Getting Started
 
 Each project lives in its own directory within this repository.
@@ -89,6 +99,7 @@ Each project lives in its own directory within this repository.
   - Structured Query Language (SQL)
   - Bourne Again SHell (Bash)
   - Procedural Language/PostgreSQL (PL/pgSQL)
+  - Python
 
 - **Libraries:**
   - Bootstrap
@@ -101,21 +112,29 @@ Each project lives in its own directory within this repository.
   - Express.js
   - Mongoose
   - Multer
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - SciPy
+  - Seaborn
  
 - **Testing & QA Tools:**
-  - **Mocha**
-  - **Chai**
-  - **Headless Browser Testing**
+  - Mocha
+  - Chai
+  - Headless Browser Testing
+  - Unit tests
 
 - **Databases:**
   - PostgreSQL (pgSQL)
   - MongoDB Atlas
 
-- **Tools:**
+- **Data Formats & Tools:**
   - Scalable Vector Graphics (SVG)
   - JavaScript Object Notation (JSON)
   - Node.js
   - dotenv
+  - Comma-separated values (CSV)
+  - Matplotlib image export
 
 ---
 
