@@ -2,7 +2,7 @@
 
 This repository contains all the required projects to complete the [**Information Security Certification** from freeCodeCamp](https://www.freecodecamp.org/learn/information-security/).
 
-View my certification here: []()
+View my certification here: [https://www.freecodecamp.org/certification/leeminghuiisaac/information-security-v7](https://www.freecodecamp.org/certification/leeminghuiisaac/information-security-v7)
 
 ---
 
