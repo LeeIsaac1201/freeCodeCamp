@@ -84,6 +84,15 @@ This repository contains all the required projects to earn certifications from f
 
 ---
 
+## Machine Learning with Python Certification Projects
+1. **Rock Paper Scissors**
+2. **Cat and Dog Image Classifier**
+3. **Book Recommendation Engine using KNN**
+4. **Linear Regression Health Costs Calculator**
+5. **Neural Network SMS Text Classifier**
+
+---
+
 ## Getting Started
 
 Each project lives in its own directory within this repository.
@@ -92,8 +101,8 @@ Each project lives in its own directory within this repository.
 
 ## Technologies Used
 
-- **Programming Languages:**
-  - Hyper Text Markup Language (HTML)
+- **Programming Languages**
+  - HyperText Markup Language (HTML)
   - Cascading Style Sheets (CSS)
   - JavaScript (JS)
   - Structured Query Language (SQL)
@@ -101,7 +110,15 @@ Each project lives in its own directory within this repository.
   - Procedural Language/PostgreSQL (PL/pgSQL)
   - Python
 
-- **Libraries:**
+- **Data Libraries**
+  - NumPy
+  - pandas
+  - Matplotlib
+  - seaborn
+  - SciPy
+  - Natural Language Toolkit (NLTK)
+ 
+- **Frontend/User Interface (UI) Libraries**
   - Bootstrap
   - React (React.js)
   - Redux
@@ -109,32 +126,39 @@ Each project lives in its own directory within this repository.
   - Marked (Marked.js)
   - Prism (Prism.js)
   - Data-Driven Documents (D3.js)
-  - Express.js
-  - Mongoose
-  - Multer
-  - NumPy
-  - Pandas
-  - Matplotlib
-  - SciPy
-  - Seaborn
  
-- **Testing & QA Tools:**
+- **Machine Learning Libraries**
+  - TensorFlow
+  - Keras
+  - scikit-learn
+
+- **Notebook & Runtime Utilities**
+  - Google Colaboratory
+  - Jupyter Notebook/JupyterLab
+  - `wget`/`unzip`
+  - Pillow (Python Imaging Library (PIL))
+
+- **Backend/Server & Middleware**
+  - Node.js
+  - Express.js
+  - Multer
+  - dotenv
+  - Mongoose
+ 
+- **Testing & QA Tools**
   - Mocha
   - Chai
-  - Headless Browser Testing
+  - Headless browser testing
   - Unit tests
 
-- **Databases:**
+- **Databases**
   - PostgreSQL (pgSQL)
   - MongoDB Atlas
 
-- **Data Formats & Tools:**
+- **Data Formats & Tools**
   - Scalable Vector Graphics (SVG)
   - JavaScript Object Notation (JSON)
-  - Node.js
-  - dotenv
   - Comma-separated values (CSV)
-  - Matplotlib image export
 
 ---
 
