@@ -93,6 +93,14 @@ This repository contains all the required projects to earn certifications from f
 
 ---
 
+## College Algebra with Python Certification Projects
+1. **Multi-Function Calculator**
+2. **Graphing Calculator**
+3. **Three Math Games**
+4. **Financial Calculator**
+5. **Data Graph Explorer**
+---
+
 ## Getting Started
 
 Each project lives in its own directory within this repository.
@@ -116,6 +124,9 @@ Each project lives in its own directory within this repository.
   - Matplotlib
   - seaborn
   - SciPy
+  - SymPy
+  - Ipywidgets
+  - Pillow
   - Natural Language Toolkit (NLTK)
  
 - **Frontend/User Interface (UI) Libraries**
